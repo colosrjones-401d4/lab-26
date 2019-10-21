@@ -1,0 +1,40 @@
+main {
+  text-align: center;
+  background-color: lightblue;
+}
+button {
+  background-color: blue;
+  height: 35px;
+  width: 135px;
+  color: white;
+  border: solid black 3px;
+  border-radius: 10px;
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.2);
+  margin: 2em auto;
+  padding: 1em auto;
+}
+input {
+  height: 35px;
+  width: 135px;
+  border: solid black 3px;
+  border-radius: 10px;
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.2);
+  margin: 2em auto;
+  padding: 1em auto;
+}
+h3, h4{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3em;
+}
+.positive {
+  background-color: seagreen;
+  color: bisque;
+  font-size: 3em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.zero {
+  background-color: slateblue;
+  color: yellow;
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
