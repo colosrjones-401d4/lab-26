@@ -1,18 +1,23 @@
 @import './variables';
 
 header {
+  margin: auto;
+  width: 25%;
+  height: 75px;
+  border: solid 5px orangered;
+  border-radius: 10px;
   text-align: center;
   background-color: $accentColor;
   color: $backgroundColor;
   h1 {
+    position: relative;
     font-weight: 800;
     font-size: 3rem;
-    margin: 100px 0 0 0;
+    margin: auto;
     text-decoration: underline;
   }
   p {
     font-size: 1.2rem;
-    margin-top: 8px;
     color: yellow;
     font-weight: bold;
   }
